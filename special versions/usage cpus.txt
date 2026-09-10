@@ -1,0 +1,14 @@
+QUAL USAR:
+  Ryzen 9000/9950X3D/EPYC Turin  => benchmark_amd_zen5.exe
+  Ryzen 7000/EPYC Genoa          => benchmark_amd_zen4.exe
+  Ryzen 5000/EPYC Milan          => benchmark_amd_zen3.exe
+  Ryzen 3000/EPYC Rome           => benchmark_amd_zen2.exe
+  Ryzen 1000/2000/EPYC Naples    => benchmark_amd_zen1.exe
+  Intel Core Ultra 200/Xeon GR   => benchmark_intel_granite.exe
+  Xeon Sapphire Rapids           => benchmark_intel_sapphire.exe
+  Intel 12a ger+ / Core Ultra    => benchmark_intel_12gen.exe
+  Intel 10a ger Ice Lake         => benchmark_intel_icelake.exe
+  Intel 6a-9a ger                => benchmark_intel_skylake.exe
+  Qualquer CPU c/ AVX-512        => benchmark_avx512_generic.exe
+  Qualquer CPU 2013+             => benchmark_avx2_generic.exe
+  Qualquer CPU 2009+ / na duvida => benchmark_generic.exe
